@@ -1,0 +1,166 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:600px){
+    nav{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 3em;
+
+    }
+
+    ul{
+        display: none;
+    }
+
+    #container{
+        height: 50vh;
+        background-image: url("https://cdn.britannica.com/11/83411-050-217610BA/Tiger-monastery-Nest-Buddhist-Bhutan.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #textContainer p{
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #textContainer{
+        height: 50vh;
+    }
+
+    #textContainer img{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:761px) and (min-width:601px){
+    nav{
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    #container{
+        height: 70vh;
+        background-image: url("https://cdn.britannica.com/11/83411-050-217610BA/Tiger-monastery-Nest-Buddhist-Bhutan.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #textContainer p{
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #textContainer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #textContainer img{
+        width: 45%;
+    }
+
+}
+@media(max-width:992px) and (min-width:762px){
+    nav{
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    #container{
+        height: 70vh;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/448/699/737/3d-4k-black-geometric-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #textContainer p{
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #textContainer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #textContainer img{
+        width: 45%;
+    }
+}
+@media(min-width:1200px){
+    nav{
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    #container{
+        height: 70vh;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/967/914/468/triangle-black-solid-color-abstract-hd-wallpaper-thumb.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #textContainer p{
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #textContainer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #textContainer img{
+        width: 45%;
+    }
+}
